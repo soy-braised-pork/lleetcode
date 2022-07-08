@@ -7,7 +7,7 @@ package leetcode.doublepointer;
  * 给你一个链表的头节点 head 和一个特定值 x ，请你对链表进行分隔，使得所有 小于 x 的节点都出现在 大于或等于 x 的节点之前。
  * 你应当 保留 两个分区中每个节点的初始相对位置。
  */
-class m_86 {
+class M_86 {
 
     public static ListNode partition(ListNode head, int x) {
         ListNode lessNode = new ListNode(-1);
@@ -36,9 +36,11 @@ class m_86 {
     }
 
     public static void main(String[] args) {
-        ListNode l1_3 = new ListNode(3);
-        ListNode l1_2 = new ListNode(4, l1_3);
-        ListNode l1_1 = new ListNode(2, l1_2);
+        ListNode l1_5 = new ListNode(2);
+        ListNode l1_4 = new ListNode(5,l1_5);
+        ListNode l1_3 = new ListNode(2,l1_4);
+        ListNode l1_2 = new ListNode(3, l1_3);
+        ListNode l1_1 = new ListNode(4, l1_2);
         ListNode head = new ListNode(1, l1_1);  //head 1 2 3 4
         int x = 3;
         System.out.println(partition(head, x));
