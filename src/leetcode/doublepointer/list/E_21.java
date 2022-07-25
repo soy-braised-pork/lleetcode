@@ -1,4 +1,4 @@
-package leetcode.doublepointer;
+package leetcode.doublepointer.list;
 
 /**
  * 21.合并两个有序链表

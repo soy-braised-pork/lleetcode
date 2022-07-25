@@ -1,4 +1,4 @@
-package leetcode.doublepointer;
+package leetcode.doublepointer.list;
 
 import java.util.ArrayList;
 import java.util.List;
