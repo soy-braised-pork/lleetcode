@@ -19,7 +19,7 @@ public class E_234 {
             slow=slow.next;
         }
 
-
+        return true;
     }
 
     public static void main(String[] args) {
