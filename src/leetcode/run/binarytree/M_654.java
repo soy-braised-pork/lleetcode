@@ -1,4 +1,4 @@
-package leetcode.doublepointer.binarytree;
+package leetcode.run.binarytree;
 
 /**
  * @author zhulx

@@ -1,4 +1,4 @@
-package leetcode.doublepointer.offer;
+package leetcode.run.offer;
 
 import java.util.Stack;
 

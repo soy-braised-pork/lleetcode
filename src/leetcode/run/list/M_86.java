@@ -1,4 +1,4 @@
-package leetcode.doublepointer.list;
+package leetcode.run.list;
 
 
 /**
